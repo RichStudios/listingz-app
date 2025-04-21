@@ -88,7 +88,7 @@ export const AuthProvider = ({ children }) => {
   // Effect to load user on initial load
   useEffect(() => {
     loadUser();
-  }, []);
+  }, [loadUser]);
 
   return (
     <AuthContext.Provider

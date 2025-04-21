@@ -14,8 +14,8 @@ import PropertyListing from './pages/PropertyListing';
 import PropertyDetail from './pages/PropertyDetail';
 import Dashboard from './pages/Dashboard';
 import AdminDashboard from './pages/AdminDashboard';
-import Blog from './pages/Blog';
-import BlogDetail from './pages/BlogDetail';
+import NewsInsights from './pages/NewsInsights';
+import ArticleDetail from './pages/ArticleDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
@@ -36,8 +36,8 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/properties" element={<PropertyListing />} />
             <Route path="/properties/:id" element={<PropertyDetail />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:id" element={<BlogDetail />} />
+            <Route path="/news" element={<NewsInsights />} />
+            <Route path="/news/:id" element={<ArticleDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             
