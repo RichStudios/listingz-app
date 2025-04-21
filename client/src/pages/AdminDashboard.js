@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 
 const Container = styled.div`
